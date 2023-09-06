@@ -1,0 +1,153 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+        font-family: verdana;
+        color: #ffffff;
+        letter-spacing: 0.5px;
+        outline: none;
+        border: none;
+        text-decoration: none;
+    }
+ 
+body{
+   background-image: linear-gradient(rgba(0, 0, 0, .75),#fcb045),url(https://th.bing.com/th/id/R.8c132eaf8894aa93481d087ce02f0450?rik=YCeCpR4bAmBPxQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fwc1744100.jpg&ehk=L5KLqkuUdoAhruSmSs1Xj05w7GPUOPhUSHkD06F0qEY%3d&risl=&pid=ImgRaw&r=0);
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 100vh;
+   background-size: cover;
+   background-position: center ;
+}
+.wrap{
+    width: 430px;
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+.wrap .shape{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+}
+.shape:first-child{
+    background-color: ;
+    left: -50px;
+    top: -50px;
+}
+.shape:last-child{
+    
+    right: -30px;
+    bottom: -50px;
+}
+form{
+    height: 500px;
+    width: 350px;
+    background-color: rgba(255,255,255,0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+}
+h2{
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+}
+p{
+    margin: 10px;
+    text-align: center;
+}
+ 
+ 
+.form-group{
+    margin-top: 50px;
+}
+input{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 5px;
+    padding: 0 10px;
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 300;
+}
+::placeholder{
+    color: #e5e5e5;
+}
+button{
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 2px;
+    font-weight: bold;
+    border: 2px solid #c4b2f5;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: #c4b2f5;
+    height: 100%;
+    width: 0%;
+/*    border-radius: 5px;*/
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -10;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+ }
+/*button{
+    margin-top: 30px;
+    width: 100%;
+    background: rgb(131,58,180);
+    background: #c4b2f5;
+    color: #ffff;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background: #e5e5e5;
+    color: #0000;
+}*/
+.social{
+  margin-top: 20px;
+  display: flex;
+}
+.social div{
+  background: red;
+  width: 150px;
+  border-radius: 3px;
+  padding: 5px 10px 10px 5px;
+  background-color: rgba(255,255,255,0.27);
+  color: #eaf0fb;
+  text-align: center;
+   
+}
+.social div:hover{
+  background-color: rgba(255,255,255,0.47);
+}
+.social .fb{
+  margin-left: 25px;
+}
